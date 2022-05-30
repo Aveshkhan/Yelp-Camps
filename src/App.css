@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Archivo', sans-serif;
+  overflow-x: hidden;
+}
+
+.container{
+  /* background-color: #f4f1f1; */
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* height: 100%; */
+}
+
+.col-1:first-child{
+  margin-left: 9vw;  
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.col-1{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.hero img{
+  width: 100%;
+  min-width: 400px;
+  /* min-height: 400px; */
+  height: 100%;
+}
+
+.head{
+  /* max-width: 500px; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+.content h2{
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.text{
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.list span{
+  margin-left: 10px;
+  color: #444;
+  font-size: 1.2rem;
+}
+
+.content2{
+  margin-top: 25px;
+}
+
+.content2 h5{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.partners{
+  display: flex;
+  align-items: center ;
+}
+
+.content2 img{
+  margin-right: 15px;
+}
+
+/*ANCHOR ********************  Login  ******************* */
+
+.loginpage{
+  background: #fff !important;
+}
+
+.back-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+}
+
+.back{
+  text-decoration: none;
+  color: #555;
+
+}
+
+.loginpage .content{
+  width: 35vw;
+}
+
+.content h3{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.content input{
+  display: block;
+  border: none;
+  background-color: #f7f7f7;
+  outline: none;
+  padding: 20px 20px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #333;
+  margin: 10px 0 25px 0 ;
+}
+
+.inputs{
+  position: relative;
+}
+
+.inputs .error{
+  color: red;
+  font-size: .9rem;
+  position: absolute;
+  bottom: -20px;
+}
+
+.content label{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+
+}
+
+.content input::placeholder{
+  color: #999;
+}
+
+.content form button{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text2{
+  font-size: 1rem;
+  color: #555;
+}
+.link{
+  font-size: 1rem;
+  color: #359dc2;
+  font-weight: 700;
+}
+
+
+.loginpage .col-1:last-child{
+  background-color: #f9f6f1;
+  height: 100%;
+  width: 100%;
+  min-width: 400px;
+  max-width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+}
+
+.content3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+}
+.content3 h4{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonial{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.testimonial-content{
+  margin-left: 15px;
+}
+
+.testimonial-content h5{
+  margin-bottom: 3px;
+}
+
+
+/* ANCHOR**********************  Camps  ********************* */
+
+.container2{
+  margin: 0 9vw;
+}
+
+.Content4{
+  background-color: #f9f6f1;
+  padding: 50px 40px;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+.Content4 h2{
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Content4 .text{
+  font-size: 1rem;
+}
+
+.searchBar-content{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.searchBar{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.searchBar img{
+  margin-right: 10px;
+}
+
+.searchBar input{
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #444;
+}
+
+.searchBar-content .btn{
+  width: 120px !important;
+}
+
+.U-link{
+  color: #999;
+  font-size: 1rem;
+}
+
+.U-link:hover{
+  color: #aeaeae;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.card{
+  border: 1px solid #dddddd;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 12px;
+  max-width: 380px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 5px 40px 0;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.card h5{
+  width: 100%;
+  text-align: start;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card p{
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+/* ANCHOR**********************  NAVBAR  ********************* */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+}
+
+.nav-left{
+  display: flex;
+  align-items: center;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px;
+  margin-left: 16px;
+}
+
+.logout-link{
+  text-decoration: none;
+  color: #666;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+
+.nav-right{
+  display: flex;
+  align-items: center;
+}
+
+.nav-right .btn{
+  width: 100%;
+  margin: 0 0 0 20px;
+  padding: 16px 20px;
+  font-size: 1rem;
+}
+
+.nav-right span{
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+
+footer{
+  margin: 50px 0;
+}
+
+.responsiveNav{
+  position: relative;
+}
+
+.Hamburger{
+  background-color: #f9f6f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+
+.responsiveNav.navActive .nav-bottom{
+  height: 150px;
+}
+
+.responsiveNav .nav-bottom{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 10;
+  background-color: #333;
+  height: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: #fff;
+  transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.responsiveNav .nav-bottom ul{
+  margin: 20px;
+}
+
+.responsiveNav .nav-bottom ul li{
+  list-style: none;
+  margin: 10px 0;
+}
+
+.responsiveNav .nav-bottom ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.responsiveNav .nav-bottom .account{
+margin: 30px 20px 0 0;  
+}
+
+.account .btn2{
+  margin-left: 10px;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.account .logout-link{
+  margin-left: 0;
+}
+
+.logout-link:hover{
+  color: #a0a0a0;
+}
+
+.nav-bottom .account .logout-link{
+  color: #a0a0a0;
+}
+
+.responsiveNav.navActive .nav-right .Hamburger #Bars{
+  display: none;
+}
+
+.responsiveNav.navActive .nav-right .Hamburger #close{
+  display: block;
+}
+
+.responsiveNav .nav-right .Hamburger #close{
+  display: none;
+}
+
+.responsiveNav .nav-right .Hamburger #Bars{
+  display: block;
+}
+
+
+/*ANCHOR ************************ Camp  ***************************** */
+
+.box{
+  border: 1px solid #dddddd;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.card2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.content5 .map{
+  margin-right: 20px;  
+  width: 70%;
+}
+
+.content5 .map img{
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  height: 100%;
+}
+
+.card2 img{
+  width: 100%;  
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.box-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.content5 .box-top h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.box-top .text{
+  margin: 0;
+  color: #222;
+}
+
+.card2 p{
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.card2 i{
+  color: #555;
+  margin: 8px 0;
+}
+
+.review{
+  padding: 20px 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+.review-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.review-top h5{
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.review p{
+  color: #555;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.time{
+  font-size: .9rem;
+  color: #555;
+}
+
+.box .btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: auto;
+}
+
+
+
+
+
+
+/*NOTE ****************** BUTTON   ************************** */
+
+.btn{
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  width: 220px;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: transform .2s ease;
+  cursor: pointer;
+}
+
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn2{
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.btn2:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.btn2:active{
+  transform: scale(0.98);
+}
+
+
+/*ANCHOR ********************  Responsive    ****************************** */
+
+@media screen and (max-width: 1440px) {
+  .col-1:first-child{
+    margin-left: 7vw;
+  }
+  .content{
+    width: 80%;
+  }
+  .back-btn{
+    padding-right: 100px;
+  }
+  .card{
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .card{
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .col-1:first-child{
+    margin-left: 4vw;
+    margin-top: 25px;
+  }
+  .content h2{    
+    font-size: 2.8rem;
+  }
+  .head{
+    margin-bottom: 50px;
+  }
+  .back-btn {
+    padding-right: 50px;
+  }
+  .list span{
+    font-size: 1rem;
+  }
+  .content{
+    width: 100%;
+  }
+  .content2 img{
+    width: 100px;
+  }
+  .card{
+    max-width: 270px;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  body{
+    overflow-x: hidden;
+  }
+  .back-btn {
+    padding-right: 0px;
+  }
+  .hero{
+    display: none;
+  }
+  .responsive-hero img{
+    width: 100%;
+  }
+  .Home .col-1{
+    margin: 0;
+  }
+  .head{
+    margin: 30px 30px;
+  }
+  .content{
+    padding: 30px 30px;
+  }
+  .loginpage .row{
+    flex-direction: column;
+  }
+  .loginpage .row .col-1{
+    margin: 0;
+    width: 100%;
+  }
+  .loginpage .content{
+    width: 100%;
+  }
+  .loginpage .col-1:last-child{
+    max-width: 100%;
+    justify-content: flex-start;
+    padding: 50px 30px;
+  }
+  .content3{
+    width: 100%;
+    height: 100%;
+  }
+  .card{
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  .Navbar{
+    display: none;
+  }
+  .content5 .row{
+    flex-direction: column-reverse;
+  }
+  .content5 .map{
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1001.5px) {
+  .responsive-hero{
+    display: none;
+  }
+  .responsiveNav{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+  .container2{
+    margin: 0 4vw;
+  }
+  .searchBar-content{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .searchBar-content .btn{
+    max-width: 262px;
+    width: 100% !important;
+  }
+  .cards{
+    justify-content: center;
+  }
+  .card{
+    max-width: 100%;
+  }
+  .searchBar{
+    width: 100%;
+  }
+  .searchBar input{
+    width: 100%;
+  }
+  .Content4 h2{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content h2{
+    font-size: 2rem;
+  }
+  .content2 img{
+    margin-right: 5px;
+    width: 80px;
+  }
+  .btn{
+    padding: 15px;
+    font-size: 1rem;
+  }
+  .text{
+    font-size: 1rem;
+  }
+  .logo img{
+    width: 100px;
+    margin-right: 10px;
+  }
+  .back{
+    font-size: .8rem;
+  }
+  .loginpage .col-1:last-child{
+    padding: 50px 20px;
+    height: 400px;
+    min-width: 200px;
+  }
+  .content3 h4{
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+  .back-btn img{
+    width: 16px;
+  }
+  .card{
+    margin-bottom: 20px;
+  }
+  .btn2{
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .content5 .box-top h3{
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+  .box-top .text{
+    font-size: .9rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
