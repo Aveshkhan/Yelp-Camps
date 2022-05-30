@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "cardImg": "https://raw.githubusercontent.com/Aveshkhan/Yelp-Camps/main/src/assets/Camp%20Images/Mount%20Ulap.jpg",
+    "title": "Mount Ulap",
+    "para": "One of the most famous hikes in banguet is mt Ulap in Itogon",
+    "link": "view-campgrounds"
+  },
+  {
+    "id": 1,
+    "cardImg": "https://github.com/Aveshkhan/Yelp-Camps/blob/main/src/assets/Camp%20Images/Calaguas%20Island.jpg?raw=true",
+    "title": "Calaguas Islands",
+    "para": "One of the most famous hikes in banguet is mt Ulap in Itogon",
+    "link": "view-campgrounds"
+  },
+  {
+    "id": 2,
+    "cardImg": "https://github.com/Aveshkhan/Yelp-Camps/blob/main/src/assets/Camp%20Images/Onay%20Beach.jpg?raw=true",
+    "title": "Onay Beach",
+    "para": "One of the most famous hikes in banguet is mt Ulap in Itogon",
+    "link": "view-campgrounds"
+  },
+  {
+    "id": 3,
+    "cardImg": "https://github.com/Aveshkhan/Yelp-Camps/blob/main/src/assets/Camp%20Images/Onay%20Beach.jpg?raw=true",
+    "title": "Seven Sisters Waterfall",
+    "para": "One of the most famous hikes in banguet is mt Ulap in Itogon",
+    "link": "view-campgrounds"
+  },
+  {
+    "id": 4,
+    "cardImg": "https://github.com/Aveshkhan/Yelp-Camps/blob/main/src/assets/Camp%20Images/Onay%20Beach.jpg?raw=true",
+    "title": "Latik Riverside",
+    "para": "One of the most famous hikes in banguet is mt Ulap in Itogon",
+    "link": "view-campgrounds"
+  },
+  {
+    "id": 5,
+    "cardImg": "https://github.com/Aveshkhan/Yelp-Camps/blob/main/src/assets/Camp%20Images/Buloy%20Springs.jpg?raw=true",
+    "title": "Buloy Springs",
+    "para": "One of the most famous hikes in banguet is mt Ulap in Itogon",
+    "link": "view-campgrounds"
+  }
+]
